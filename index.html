@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Księga Gości - Wesele</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      width: 100%;
+      font-family: 'Cinzel', serif;
+      color: #9b7bb5;
+      background: url('1.jpg') no-repeat bottom center;
+      background-size: 100% auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .overlay {
+      max-width: 700px;
+      margin: 20px;
+      padding: 0;
+    }
+
+    .monogram {
+      width: 100px;
+      margin: 0 auto 20px auto;
+    }
+
+    h1 {
+      font-size: 64px;
+      margin-bottom: 10px;
+    }
+
+    .subtext {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    p {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      background-color: #b19cd9;
+      color: white;
+      padding: 16px 36px;
+      border-radius: 50px;
+      font-size: 18px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #a083c4;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 40px;
+      }
+
+      p, .subtext {
+        font-size: 16px;
+      }
+
+      .button {
+        font-size: 16px;
+        padding: 12px 28px;
+      }
+
+      .monogram {
+        width: 70px;
+        margin-bottom: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="overlay">
+    <img src="mono.png" alt="Monogram" class="monogram" />
+    <h1>Księga Gości</h1>
+    
+    <p>Dziękujemy, że jesteście z nami w tym wyjątkowym dniu.</p>
+    <p>Podzielcie się zdjęciami i filmami z przyjęcia.</p>
+    <div class="subtext">Sylwia & Hubert<br>12.07.2025</div>
+    <a class="button" href="https://mega.nz/filerequest/Mb5gEiw8wnY" target="_blank" rel="noopener noreferrer">📸 Dodaj zdjęcia</a>
+  </div>
+
+</body>
+</html>
